@@ -1,0 +1,4 @@
+interface:
+  display_name: "ココナラブログ画像入り下書き"
+  short_description: "記事と画像3枚を制作しココナラへ未公開下書き保存・再確認"
+  default_prompt: "Use $coconala-blog-upload-draft to create a Coconala blog with a thumbnail and two body images, then save and verify it as an unpublished draft."

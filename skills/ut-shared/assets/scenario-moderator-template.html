@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{project_name}} UTモデレーターシナリオ</title>
+  <style>
+    :root { color-scheme:light; --ink:#17202a; --muted:#667085; --line:#d7dce2; --paper:#fff; --soft:#f5f7fa; --accent:#2457d6; --good:#157347; --warn:#9a6700; --danger:#b42318; }
+    * { box-sizing:border-box; }
+    body { margin:0; overflow-x:hidden; background:var(--soft); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.55; }
+    main { width:min(1240px,calc(100% - 32px)); max-width:calc(100vw - 32px); margin:32px auto; background:var(--paper); padding:clamp(24px,4vw,52px); border:1px solid var(--line); border-radius:16px; }
+    h1 { font-size:clamp(28px,4vw,42px); line-height:1.15; margin:0 0 12px; }
+    h2 { margin-top:48px; padding-bottom:10px; border-bottom:2px solid var(--ink); }
+    .meta { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin:20px 0; color:var(--muted); }
+    .callout { padding:16px 18px; background:#eef3ff; border-left:4px solid var(--accent); border-radius:8px; }
+    table { width:100%; border-collapse:collapse; margin:18px 0 30px; font-size:14px; }
+    th,td { padding:12px; border:1px solid var(--line); vertical-align:top; text-align:left; }
+    th { background:#edf0f4; }
+    .id { font-weight:750; color:var(--accent); white-space:nowrap; }
+    .source { color:var(--muted); font-size:12px; }
+    .risk-low { color:var(--good); }
+    .risk-medium { color:var(--warn); }
+    .risk-high { color:var(--danger); font-weight:700; }
+    code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.92em; }
+    h1,h2,p,.callout,.meta span { overflow-wrap:anywhere; }
+    footer { margin-top:48px; color:var(--muted); font-size:13px; }
+    @media (max-width:800px) { table { display:block; overflow-x:auto; } th,td { min-width:150px; } }
+    @media print { body { background:#fff; } main { width:100%; margin:0; border:0; padding:20px; } table { font-size:11px; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>{{project_name}} UTモデレーターシナリオ</h1>
+    <div class="meta">
+      <span>モード: {{test_mode}}</span>
+      <span>環境: {{environment}}</span>
+      <span>作成: {{created_at}}</span>
+      <span>改訂: {{revised_at}}</span>
+      <span>シナリオ数: {{scenario_count}}</span>
+      <span>設定: {{config_path}}</span>
+    </div>
+  </header>
+
+  <div class="callout">
+    参加者へ期待結果や理想操作を先に見せない。結果は実施中に<code>results.jsonl</code>へ逐次保存する。外部影響操作は実行直前に確認する。
+  </div>
+
+  <section>
+    <h2>{{section_id}}. {{section_title}}</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>開始状態・参加者タスク</th>
+          <th>成功条件・期待結果</th>
+          <th>観察点・中立プローブ</th>
+          <th>リスク・データ</th>
+          <th>結果</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="id">{{scenario_id}}</span><div class="source">{{source_id}}</div></td>
+          <td><strong>開始:</strong> {{starting_state}}<br><strong>タスク:</strong> {{participant_task}}</td>
+          <td>{{success_criteria}}</td>
+          <td><strong>観察:</strong> {{observation_points}}<br><strong>必要時のみ:</strong> {{neutral_probe}}</td>
+          <td><span class="{{risk_class}}">{{operation_class}}</span><br>{{test_data_instruction}}</td>
+          <td>{{result_placeholder}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Repeat section/table rows. Keep existing IDs stable when revising. -->
+
+  <footer>UT moderator view · {{version_label}}</footer>
+</main>
+</body>
+</html>

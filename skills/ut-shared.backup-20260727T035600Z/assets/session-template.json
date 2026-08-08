@@ -1,0 +1,28 @@
+{
+  "schema_version": "2.0",
+  "run_id": "{{run_id}}",
+  "project_name": "{{project_name}}",
+  "test_mode": "{{test_mode}}",
+  "environment": "{{environment}}",
+  "config_path": "{{config_path}}",
+  "scenario_source": "{{scenario_source}}",
+  "started_at": "{{started_at}}",
+  "updated_at": "{{updated_at}}",
+  "status": "prepared",
+  "participant_ids": ["P01"],
+  "scenario_counts": {
+    "total": 0,
+    "completed": 0,
+    "with_friction": 0,
+    "failed_or_ng": 0,
+    "blocked": 0,
+    "skipped": 0,
+    "pending": 0
+  },
+  "completed_scenario_ids": [],
+  "pending_scenario_ids": [],
+  "created_test_data": [],
+  "cleanup_status": "not-started",
+  "notes": []
+}
+

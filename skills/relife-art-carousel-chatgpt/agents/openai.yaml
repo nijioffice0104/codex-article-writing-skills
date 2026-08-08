@@ -1,0 +1,4 @@
+interface:
+  display_name: "Relife Art Carousel ChatGPT"
+  short_description: "ChatGPTでRelife Art風インスタカルーセルを生成し検品する"
+  default_prompt: "Relife Artデザインツール風のInstagramカルーセル画像をChatGPTで生成し、枚数・サイズ・文字切れ・デザイン一致まで検品してください。"

@@ -1,0 +1,52 @@
+version: "2.0"
+project:
+  name: "Sample Project"
+  type: "web-app"
+  root: "."
+
+test:
+  mode: "hybrid"
+  environment: "staging"
+  base_url: "http://localhost:3000"
+  participant_profile: "対象業務またはサービスの想定利用者"
+  participant_count: 1
+  moderator: "project-owner"
+  locale: "ja-JP"
+
+sources:
+  requirements: ["docs/requirements.md"]
+  design: ["docs/design.md"]
+  change_sources: ["git"]
+  requirement_id_pattern: ""
+
+artifacts:
+  root: "docs/ut"
+  format: "html"
+  create_participant_view: true
+  create_moderator_view: true
+
+execution:
+  order: ["non-mutating", "reversible-mutation", "irreversible-or-external-effect"]
+  allow_production_mutation: false
+  require_confirmation_for_external_effects: true
+
+test_data:
+  enabled: true
+  prefix: "UT-{date}-{run_id}-"
+  cleanup: "assisted"
+  require_baseline: true
+  require_dry_run: true
+  require_explicit_approval: true
+
+observation:
+  capture_task_time: false
+  capture_quotes: true
+  capture_screenshots: "optional"
+  anonymize_participants: true
+  recording: "disabled"
+
+analysis:
+  frameworks: ["nielsen-10", "impact-effect-efficiency-satisfaction", "ux-five-planes"]
+  root_issue_target: "3-8"
+  confidence_levels: ["high", "medium", "low"]
+

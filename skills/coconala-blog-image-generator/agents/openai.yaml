@@ -1,0 +1,4 @@
+interface:
+  display_name: "ココナラブログ画像ジェネレーター"
+  short_description: "ワンクリック卓からChatGPTへ画像3枚を伝送・検品"
+  default_prompt: "Use $coconala-blog-image-generator to extract the image prompts from the one-click desk and generate three editable images in ChatGPT."

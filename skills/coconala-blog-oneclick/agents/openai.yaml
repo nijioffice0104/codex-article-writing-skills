@@ -1,0 +1,4 @@
+interface:
+  display_name: "ココナラブログ・ワンクリック"
+  short_description: "商品確認から下書き保存とChatGPT画像生成まで実行"
+  default_prompt: "Use $coconala-blog-oneclick to create and save a Coconala blog draft with three editable ChatGPT images."
