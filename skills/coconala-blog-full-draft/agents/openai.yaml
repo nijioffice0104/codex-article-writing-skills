@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coconala Blog Full Draft"
+  short_description: "Write, polish, image, upload, and verify Coconala drafts"
+  default_prompt: "Use $coconala-blog-full-draft to write a Coconala blog, polish it through Claude Code when available, generate images, upload it as an unpublished draft, and verify it."
