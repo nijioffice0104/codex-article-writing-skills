@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Coconala Contents Market Draft"
+  short_description: "Create Coconala Contents Market drafts from existing services."
+  default_prompt: "既存のココナラサービスURLとYouTube URLから、コンテンツマーケット用の未公開下書きを作成してください。"
