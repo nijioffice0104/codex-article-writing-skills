@@ -38,10 +38,16 @@ Repository:
 https://github.com/nijioffice0104/codex-article-writing-skills
 ```
 
-ZIP:
+All skills ZIP:
 
 ```text
 https://github.com/nijioffice0104/codex-article-writing-skills/archive/refs/heads/main.zip
+```
+
+Single skill ZIP:
+
+```text
+https://github.com/nijioffice0104/codex-article-writing-skills/raw/main/packages/coconala-contents-market-draft.zip
 ```
 
 ## 方針
