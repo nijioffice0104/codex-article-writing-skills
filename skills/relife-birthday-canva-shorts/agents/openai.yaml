@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI☓codex占い師集客支援スキル"
+  short_description: "占い師の集客導線をAIとCodexで作り、スサノオ版Shorts生成から投稿検証まで実行"
+  default_prompt: "Use $relife-birthday-canva-shorts as the AI☓codex占い師集客支援スキル. If the user says スサノオで, copy the Susanoo Canva source template DAHBvlvQ5C0 from https://canva.link/k1wrwwz7uc1s83g, then create a fresh Relife波動タロット birthday-ranking Shorts workflow: plan the topic, edit Canva, preserve Mode Mincho and clean two-line titles, mux the fixed JR4FWOICOKA audio, publish to YouTube, verify public audio playback, and report to Notion."
+
+policy:
+  allow_implicit_invocation: true
