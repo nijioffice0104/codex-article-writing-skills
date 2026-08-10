@@ -15,6 +15,7 @@
 | `coconala-note-exact-transfer` | ココナラブログをnote下書きへ正確に転記し、note専用サムネ、過大な余白、ココナラURLのブログカード化まで検品するスキル |
 | `ameblo-readable-transfer` | note記事をAmebloへ読みやすく転記し、4記事バッチ、4時間間隔、1日2本予約、完了後のnote更新監視まで行うスキル |
 | `relife-art-carousel-chatgpt` | Relife Art系のInstagram/TikTokカルーセル画像をChatGPTで生成し、見た目を検証するスキル |
+| `relife-birthday-canva-shorts` | Relife波動タロット向け誕生日占いShortsを、スサノオ指定を含むCanva複製、固定音源合成、YouTube投稿、公開・音声検証、Notion報告まで行うスキル |
 | `ut-analysis` | UT結果を分析し、観察と解釈を分けた分析レポートを作るスキル |
 | `ut-learning` | ユーザーテスト、ユーザビリティ、UX/UIを学ぶためのラーニング用スキル |
 | `ut-moderator` | ライブUTセッションを進行し、観察結果を記録するモデレーター用スキル |
