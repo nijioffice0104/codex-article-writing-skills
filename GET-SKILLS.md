@@ -19,5 +19,6 @@ C:\Users\あなたのユーザー名\.codex\skills\
 - `coconala-blog-full-draft`
 - `beku-tankyu-project`
 - `coconala-note-exact-transfer`
+- `relife-birthday-canva-shorts`
 
 入れたあと、Codexを再起動してください。
