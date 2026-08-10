@@ -1,0 +1,5 @@
+﻿interface:
+  display_name: "ココナラ→note完全転記"
+  short_description: "note専用サムネと本文・画像・装飾・余白を検品して正確に転記"
+  default_prompt: "$coconala-note-exact-transfer を使って、指定したココナラ記事をnote下書きへ転記し、サムネと実表示の余白まで最終検品してください。"
+

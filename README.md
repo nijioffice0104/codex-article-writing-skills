@@ -12,6 +12,7 @@
 | `coconala-blog-image-generator` | ワンクリック卓から画像生成依頼文を抽出し、ChatGPT側でサムネ・記事画像を生成して確認するスキル |
 | `coconala-blog-oneclick` | ココナラブログ記事を作成し、画像生成と下書き保存まで進めるワンクリック系スキル |
 | `coconala-blog-upload-draft` | ココナラブログ本文・画像を作り、未公開下書きとして保存して再確認するアップロード用スキル |
+| `coconala-note-exact-transfer` | ココナラブログをnote下書きへ正確に転記し、note専用サムネ、過大な余白、ココナラURLのブログカード化まで検品するスキル |
 | `relife-art-carousel-chatgpt` | Relife Art系のInstagram/TikTokカルーセル画像をChatGPTで生成し、見た目を検証するスキル |
 | `ut-analysis` | UT結果を分析し、観察と解釈を分けた分析レポートを作るスキル |
 | `ut-learning` | ユーザーテスト、ユーザビリティ、UX/UIを学ぶためのラーニング用スキル |
@@ -48,6 +49,7 @@ Single skill ZIP:
 
 ```text
 https://github.com/nijioffice0104/codex-article-writing-skills/raw/main/packages/coconala-contents-market-draft.zip
+https://github.com/nijioffice0104/codex-article-writing-skills/raw/main/packages/coconala-note-exact-transfer.zip
 ```
 
 ## 方針
