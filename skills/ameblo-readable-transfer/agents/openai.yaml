@@ -1,0 +1,4 @@
+interface:
+  display_name: "虹オフィス note→アメブロ転記"
+  short_description: "noteからAmebloへ読みやすく転記・予約・更新監視"
+  default_prompt: "Use $ameblo-readable-transfer to transfer the next Niji Office note articles to Ameblo as verified drafts and reservations."
