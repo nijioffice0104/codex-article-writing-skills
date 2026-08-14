@@ -1,0 +1,4 @@
+interface:
+  display_name: "note Draft Production Cockpit"
+  short_description: "Finish note drafts with decoration, images, and checks"
+  default_prompt: "Finish this note draft without publishing it: preserve the manuscript, apply note-ready decoration, plan and insert the required images, save the draft, and verify the final state."

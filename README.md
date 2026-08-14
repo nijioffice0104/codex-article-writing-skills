@@ -13,6 +13,7 @@
 | `coconala-blog-oneclick` | ココナラブログ記事を作成し、画像生成と下書き保存まで進めるワンクリック系スキル |
 | `coconala-blog-upload-draft` | ココナラブログ本文・画像を作り、未公開下書きとして保存して再確認するアップロード用スキル |
 | `coconala-note-exact-transfer` | ココナラブログをnote下書きへ正確に転記し、note専用サムネ、過大な余白、ココナラURLのブログカード化まで検品するスキル |
+| `note-draft-production-cockpit` | 既存のnote長文下書きを、原稿を壊さず装飾・サムネ・見出し下画像・保存検品まで公開直前に仕上げるスキル |
 | `ameblo-readable-transfer` | note記事をAmebloへ読みやすく転記し、4記事バッチ、4時間間隔、1日2本予約、完了後のnote更新監視まで行うスキル |
 | `relife-art-carousel-chatgpt` | Relife Art系のInstagram/TikTokカルーセル画像をChatGPTで生成し、見た目を検証するスキル |
 | `relife-birthday-canva-shorts` | Relife波動タロット向け誕生日占いShortsを、スサノオ指定を含むCanva複製、固定音源合成、YouTube投稿、公開・音声検証、Notion報告まで行うスキル |
@@ -52,7 +53,9 @@ Single skill ZIP:
 ```text
 https://github.com/nijioffice0104/codex-article-writing-skills/raw/main/packages/coconala-contents-market-draft.zip
 https://github.com/nijioffice0104/codex-article-writing-skills/raw/main/packages/coconala-note-exact-transfer.zip
+https://github.com/nijioffice0104/codex-article-writing-skills/raw/main/packages/note-draft-production-cockpit.zip
 https://github.com/nijioffice0104/codex-article-writing-skills/raw/main/packages/ameblo-readable-transfer.zip
+https://github.com/nijioffice0104/codex-article-writing-skills/raw/main/packages/relife-birthday-canva-shorts.zip
 ```
 
 ## 方針
